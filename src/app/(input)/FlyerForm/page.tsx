@@ -4,6 +4,7 @@ import './page.css'
 
 export default function Home() {
   return (
+    <div className="relative flex min-h-screen flex-col justify-center ">
     <main className="flex min-h-screen max-w-screen-2xl flex-col border px-8 md:px-16">
       <header className="py-8">
         <a href="#">
@@ -69,5 +70,6 @@ export default function Home() {
         </ul>
       </footer>
     </main>
+    </div>
   )
 }
